@@ -1,0 +1,9 @@
+O agente reciclador tem capacidade para 3 lixos em cada sacola.
+Uma lixeira tem capacidade para 6 lixos.
+
+
+
+configurações de ambientes:
+
+COLOCAR CONFIGURAÇÕES DE AMBIENTE AQUI
+

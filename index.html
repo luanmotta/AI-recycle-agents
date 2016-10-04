@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Agentes</title>
+    </head>
+    <body>
+        <canvas id="visual" width="500" height="400"></canvas>
+        <h2 id="ciclo"></h2>
+
+        <ul>
+            <li>Lixeira Seco: <img id="seco" src="assets/lixo_seco.png" width="30" height="30"></li>
+            <li>Lixeira Organico: <img id="organico" src="assets/lixo_organico.png" width="30" height="30"></li>
+            <li>Lixo Seco:   <span style="color:green">Verde</span></li>
+            <li>Lixo Organico:   <span style="color:red">Vermelho</span></li>
+            <li>Agente: <span style="color:black">Preto</span></li>
+        </ul>
+
+        <script src="renderizacao.js"></script>
+        <script src="classes/Lixo.js"></script>
+        <script src="classes/Lixeira.js"></script>
+        <script src="classes/Reciclador.js"></script>
+        <script src="classes/Ambiente.js"></script>
+        <script src="classes/ambientes/AmbienteGrande.js"></script>
+        <script src="classes/ambientes/AmbienteMedio.js"></script>
+        <script src="classes/ambientes/AmbientePequeno.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
